@@ -44,8 +44,8 @@ void main(List<String> args) {
   //infinite loops
   int control = 0;
   for (;;) {
-    print(i);
-    if (++control >= 15) {
+    print(++control);
+    if (control >= 15) {
       break;
     }
   }
@@ -53,7 +53,7 @@ void main(List<String> args) {
   control = 0;
   while (true) {
     print(++control);
-    if (++control >= 15) {
+    if (control >= 15) {
       break;
     }
   }
