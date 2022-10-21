@@ -10,7 +10,6 @@
 // 3. Map
 // No classical arrays exists in dart ie: int[], char[]
 
-import 'dart:ffi';
 
 void main(List<String> args) {
   // List numbers = [
